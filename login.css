@@ -1,0 +1,49 @@
+.body,html{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    background-image: url(http://lorempixel.com/500/400/city);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 10px white;
+    border-radius: 10%;
+}
+h1{
+    position: absolute;
+    top: 200px;
+    left: 715px;
+}
+.input{
+    height: 30px;
+    width: 300px;
+    border-radius: 2%;
+}
+.btn{
+    height: 35px;
+    width: 310px;
+    border-radius: 5%;
+    background-color: skyblue;
+}       
+a{
+    text-decoration: none;
+    font-size: 17px
+}
+#anchor{
+    font-weight: 200px;
+    color: black;
+}
+#anchor-1{
+    font-weight: 200px;
+    color: black;
+}
